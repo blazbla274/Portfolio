@@ -1,0 +1,233 @@
+@keyframes afterBelt {
+  0% {
+      width: 0px;
+  }
+  50% {
+      width: 0px;
+  }
+  100% {
+      width: 110px;
+  }
+}
+
+.technology-box > div {
+    position: absolute;  
+    background-size: 140px 180px;
+    transition: all 240ms ease;
+}
+
+.technology-box::before {
+    content: '';
+    background-color: #2e8bbc;
+    position: absolute;
+    top: 10px;
+    left: -16px;
+    width: 0px;
+    height: 20px;
+    transform: rotate(26deg);
+    transform-origin: 0px 0px;
+    transition: all 150ms ease;
+}
+
+.technology-box::after {
+    content: '';
+    background-color: #2e8bbc;
+    position: absolute;
+    top: 120px;
+    left: 164px;
+    width: 0px;
+    height: 20px;
+    transform: rotate(-200deg);
+    transform-origin: 0px 0px;
+}
+
+.technology-box:hover::before {
+    width: 210px;
+}  
+
+.technology-box:hover::after {
+    animation-name: afterBelt;
+    animation-duration: 300ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+}
+
+.technology-box:hover {
+    cursor: pointer;
+}
+
+.technology-box > .top-left {
+    top: 0px;
+    left: 0px;
+    background-position: top left;
+    width: 90px;
+    height: 70px;
+}
+
+.technology-box > .top-right {
+    top: 0px;
+    right: 0px;
+    background-position: top right;
+    width: 50px;
+    height: 50px;
+}
+
+.technology-box > .bottom-left {
+    bottom: 0px;
+    left: 0px;
+    background-position: bottom left;
+    width: 90px;
+    height: 110px;
+}
+
+.technology-box > .bottom-right {
+    bottom: 0px;
+    right: 0px;
+    background-position: bottom right;
+    width: 50px;
+    height: 130px;
+}
+
+.technology-box.animate1 > div {
+    transition: all 150ms ease;
+}
+
+.technology-box.animate2 > div {
+    transition: all 250ms ease;
+}
+
+.technology-box.animate2 > div {
+    transition: all 90ms ease;
+}
+
+/*Animacja1*/
+.technology-box.animate1 > .top-left {
+    top: 0px;
+}
+
+.technology-box.animate1 > .top-right {
+    top: 20px;
+}
+
+.technology-box.animate1 > .bottom-left {
+    bottom: 0px;
+    left: -15px;
+}
+
+.technology-box.animate1 > .bottom-right {
+    bottom: -20px;
+    right: 15px;
+}
+
+/*Animacja2*/
+.technology-box.animate2 > .top-left {
+    top: -5px;
+}
+
+.technology-box.animate2 > .top-right {
+    top: 10px;
+}
+
+.technology-box.animate2 > .bottom-left {
+    bottom: 5px;
+}
+
+.technology-box.animate2 > .bottom-right {
+    bottom: -10px;
+}
+
+/*Animacja3*/
+.technology-box.animate3 > .top-left {
+    top: 0px;
+}
+
+.technology-box.animate3 > .top-right {
+    top: -10px;
+}
+
+.technology-box.animate3 > .bottom-left {
+    transform: rotate(20deg);
+}
+
+.technology-box.animate3 > .bottom-right {
+    right: -10px;
+}
+/*Animacja rozpadu*/
+.technology-box.animateDestruction > .top-left {
+    top: -20px;
+    left: -20px;
+}
+
+.technology-box.animateDestruction > .top-right {
+    top: -20px;
+    right: -20px;
+}
+
+.technology-box.animateDestruction > .bottom-left {
+    left: -20px;
+    bottom: - 20px;
+}
+
+.technology-box.animateDestruction > .bottom-right {
+    bottom: -20px;
+    right: -20px;
+}
+
+.technology-box.html-box > .top-left, .technology-box.html-box > .top-right, 
+.technology-box.html-box > .bottom-left, .technology-box.html-box > .bottom-right {
+    
+    background-image: url(../img/technology/html.png);
+}
+
+.technology-box.css-box > .top-left, .technology-box.css-box > .top-right, 
+.technology-box.css-box > .bottom-left, .technology-box.css-box > .bottom-right {
+    
+    background-image: url(../img/technology/css.png);
+}
+
+.technology-box.js-box > .top-left, .technology-box.js-box > .top-right, 
+.technology-box.js-box > .bottom-left, .technology-box.js-box > .bottom-right {
+    
+    background-image: url(../img/technology/js.png);
+}
+.technology-box.ajax-box > .top-left, .technology-box.ajax-box > .top-right, 
+.technology-box.ajax-box > .bottom-left, .technology-box.ajax-box > .bottom-right {
+    
+    background-image: url(../img/technology/ajax.png);
+}
+.technology-box.cpp-box > .top-left, .technology-box.cpp-box > .top-right, 
+.technology-box.cpp-box > .bottom-left, .technology-box.cpp-box > .bottom-right {
+    
+    background-image: url(../img/technology/cpp.png);
+}
+.technology-box.git-box > .top-left, .technology-box.git-box > .top-right, 
+.technology-box.git-box > .bottom-left, .technology-box.git-box > .bottom-right {
+    
+    background-image: url(../img/technology/git.png);
+}
+.technology-box.jq-box > .top-left, .technology-box.jq-box > .top-right, 
+.technology-box.jq-box > .bottom-left, .technology-box.jq-box > .bottom-right {
+    
+    background-image: url(../img/technology/jq.png);
+}
+.technology-box.mysql-box > .top-left, .technology-box.mysql-box > .top-right, 
+.technology-box.mysql-box > .bottom-left, .technology-box.mysql-box > .bottom-right {
+    
+    background-image: url(../img/technology/mysql.png);
+}
+.technology-box.php-box > .top-left, .technology-box.php-box > .top-right, 
+.technology-box.php-box > .bottom-left, .technology-box.php-box > .bottom-right {
+    
+    background-image: url(../img/technology/php.png);
+}
+.technology-box.ps-box > .top-left, .technology-box.ps-box > .top-right, 
+.technology-box.ps-box > .bottom-left, .technology-box.ps-box > .bottom-right {
+    
+    background-image: url(../img/technology/ps.png);
+}
+.technology-box.bracket-box > .top-left, .technology-box.bracket-box > .top-right, 
+.technology-box.bracket-box > .bottom-left, .technology-box.bracket-box > .bottom-right {
+    
+    background-image: url(../img/technology/ps.png);
+}
