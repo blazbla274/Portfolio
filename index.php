@@ -127,7 +127,9 @@
                                     <div>
                                         <h2>Pacman++</h2>
                                         <span>
-                                        Mój pierwszy graficzny projekt gry wzorowanej na klasycznym Pacmanie. Rozgrywka została rozszeżona dwa nowe bonusy, dwa nowe rodzaje duchów, jeden podkłada miny eksplodujące po kilku sekundach, drugi strzela kulami ognia.
+                                        Mój pierwszy graficzny projekt gry wzorowanej na klasycznym Pacmanie. 
+                                        Rozgrywka została rozszeżona dwa nowe bonusy, dwa nowe rodzaje duchów, 
+                                        jeden podkłada miny eksplodujące po kilku sekundach, drugi strzela kulami ognia.
                                         </span>
                                     </div>
 
@@ -138,7 +140,11 @@
                                     <div>
                                         <h2>Base</h2>
                                         <span>
-                                        Moja pierwsza próba stworzenia większej aplikacji w ramach nauki Php. Niestety okazało się, że wyzwanie które sobie wtedy przed sobą postawiłem troche mnię przerosło. Dzięki temu projektowi nauczyłem się podstaw i liznąłem ajaxa.
+                                        Moja pierwsza próba stworzenia większej aplikacji w ramach nauki Php. Niestety 
+                                        okazało się, że wyzwanie które sobie wtedy przed sobą postawiłem troche mnię 
+                                        przerosło. Dzięki temu projektowi nauczyłem  tworzyć system logowania, walidować 
+                                        dane pochodzące od użytkownika, dodawać rekordy do bazy, wyświetlać 
+                                        ją w przeglądarce, czy automatycznie wysyłąć grupowe emaile.
                                         </span>
                                     </div>
 
