@@ -409,17 +409,17 @@
                         </div>
                         <div class="media">
 
-                            <a href="https://www.linkedin.com/in/błażej-blaut-94756b157/">
+                            <a href="https://www.linkedin.com/in/błażej-blaut-94756b157/" title="Linked In">
                                 <div class="in">
                                 </div>
                             </a>
 
-                            <a href="http://m.me/100004036871594">
+                            <a href="http://m.me/100004036871594" title="Messenger">
                                 <div class="ms">
                                 </div>
                             </a>
 
-                            <a href="https://github.com/blazbla274">
+                            <a href="https://github.com/blazbla274" title="Github">
                                 <div class="git">
                                 </div>
                             </a>
