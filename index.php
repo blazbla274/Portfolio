@@ -419,7 +419,7 @@
                                 </div>
                             </a>
 
-                            <a href="https://github.com/Blauto">
+                            <a href="https://github.com/blazbla274">
                                 <div class="git">
                                 </div>
                             </a>
